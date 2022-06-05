@@ -1,0 +1,38 @@
+body {
+  background-color: #4287f5;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  min-width: 100%;
+  min-height: 300px;
+  padding: 40px
+}
+
+.banner div {
+  margin-top: 40px;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+}
+
+@media screen and (width < 500px){
+  .banner {
+    padding: 20px;
+  }
+}
